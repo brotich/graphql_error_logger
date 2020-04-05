@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup(
     name="graphql_error_logger",
-    version="0.0.1",
+    version="0.0.2",
     author="Brian Rotich",
     author_email="opensource@brianrotich.com",
     description="Log expection from the GraphQL python server",
