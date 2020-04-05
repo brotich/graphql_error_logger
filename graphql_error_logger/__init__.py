@@ -42,4 +42,4 @@ def init_logger(logger: logging = None):
             logger.error("error in GraphQL view", exc_info=error.original_error)
         return default_format_error(error)
 
-    GraphQLView.format_error = test_logging_update
+    GraphQLView.format_error = log_and_format_exception
