@@ -1,3 +1,4 @@
+import setuptools
 
 setuptools.setup(
     name="graphql_error_logger",
@@ -12,8 +13,6 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    python_requires='>=3.6',
-    install_requires=[
-        'flask_graphql>=2.0.0'
-    ]
+    python_requires=">=3.6",
+    install_requires=["flask_graphql>=2.0.0"],
 )
